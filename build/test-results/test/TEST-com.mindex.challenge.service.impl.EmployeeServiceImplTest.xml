@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mindex.challenge.service.impl.EmployeeServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-31T02:02:07" hostname="RAIYAN" time="0.072">
+  <properties/>
+  <testcase name="testCreateReadUpdate" classname="com.mindex.challenge.service.impl.EmployeeServiceImplTest" time="0.072"/>
+  <system-out><![CDATA[2025-08-30T22:02:07.465-04:00  INFO 26292 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.mindex.challenge.service.impl.EmployeeServiceImplTest]: EmployeeServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-30T22:02:07.469-04:00  INFO 26292 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.mindex.challenge.ChallengeApplication for test class com.mindex.challenge.service.impl.EmployeeServiceImplTest
+2025-08-30T22:02:07.485-04:00 DEBUG 26292 --- [o-auto-1-exec-7] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@33875ed2]
+2025-08-30T22:02:07.485-04:00 DEBUG 26292 --- [o-auto-1-exec-7] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@33875ed2]
+2025-08-30T22:02:07.485-04:00 DEBUG 26292 --- [o-auto-1-exec-7] c.m.c.service.impl.EmployeeServiceImpl   : Successfully created employee [com.mindex.challenge.data.Employee@33875ed2]
+2025-08-30T22:02:07.511-04:00 DEBUG 26292 --- [o-auto-1-exec-8] c.m.c.controller.EmployeeController      : Received employee create request for id [5ffea7b9-d3ea-4465-b5ad-ce797c6a7287]
+2025-08-30T22:02:07.511-04:00 DEBUG 26292 --- [o-auto-1-exec-8] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee with id [5ffea7b9-d3ea-4465-b5ad-ce797c6a7287]
+2025-08-30T22:02:07.519-04:00 DEBUG 26292 --- [o-auto-1-exec-8] c.m.c.service.impl.EmployeeServiceImpl   : Successfully read employee [com.mindex.challenge.data.Employee@596e700b]
+2025-08-30T22:02:07.530-04:00 DEBUG 26292 --- [o-auto-1-exec-9] c.m.c.controller.EmployeeController      : Received employee create request for id [5ffea7b9-d3ea-4465-b5ad-ce797c6a7287] and employee [com.mindex.challenge.data.Employee@b922fe]
+2025-08-30T22:02:07.530-04:00 DEBUG 26292 --- [o-auto-1-exec-9] c.m.c.service.impl.EmployeeServiceImpl   : Updating employee [com.mindex.challenge.data.Employee@b922fe]
+2025-08-30T22:02:07.530-04:00 DEBUG 26292 --- [o-auto-1-exec-9] c.m.c.service.impl.EmployeeServiceImpl   : Successfully updated employee [com.mindex.challenge.data.Employee@b922fe]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

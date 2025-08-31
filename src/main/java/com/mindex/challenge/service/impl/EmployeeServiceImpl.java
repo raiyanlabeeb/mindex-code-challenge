@@ -24,6 +24,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         employee.setEmployeeId(UUID.randomUUID().toString());
         employeeRepository.insert(employee);
 
+        LOG.debug("Successfully created employee [{}]", employee); //added for debugging purposes
         return employee;
     }
 
@@ -36,7 +37,7 @@ public class EmployeeServiceImpl implements EmployeeService {
         if (employee == null) {
             throw new RuntimeException("Invalid employeeId: " + id);
         }
-
+        LOG.debug("Successfully read employee [{}]", employee); //added for debugging purposes
         return employee;
     }
 
@@ -44,6 +45,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     public Employee update(Employee employee) {
         LOG.debug("Updating employee [{}]", employee);
 
+        LOG.debug("Successfully updated employee [{}]", employee); //added for debugging purposes
         return employeeRepository.save(employee);
     }
 }
